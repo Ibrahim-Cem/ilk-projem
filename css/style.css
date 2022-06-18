@@ -1,11 +1,78 @@
-#birinciDiv{
-    background: yellow;
-    font-family:Apple Chancery;
-}
+
 body{
-background: aquamarine
+background: aquamarine;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .kapsayici{
-display:flex;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
+    background-color: dimgray;
+    height: 75px;
+}
+.link{
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+
+}
+.linkDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: rgb(161, 161, 161);
+    height: 300px;
+}
+
+.linkList{
+    list-style: none;
+}
+.footerlink{
+    font-size: 24px;
+    color: blueviolet;
+    font-family: American Typewriter;
+    text-decoration: none;
+}
+
+.footerlink:hover{
+    color:white;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.footerCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+    padding-top:5px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.blogYazisi{
+    display:flex;
+    width: 100%;
+}
+.blogResim{
+    margin-right: 20px; 
+}
+.blogMetin{
+    
+}
+.blogImg{
+    height: 200;
+    border-radius: 20%;
+}
+
+section{
+    margin-bottom: 20px;
 }
