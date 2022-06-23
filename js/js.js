@@ -7,6 +7,11 @@ $(document).ready(function(){
         alert("Merhaba "+ isim);
     })
     $("#button2").click(function(){
-        alert("Merhaba İbrahim 2");
+        $("#magic").fadeToggle(2000);
     })
+    $("#magic").click(function(){
+        $(this).html("Cesaretliymişsin tebrik ederim. Yine beklerim :)");
+        $(this).css("font-size", "+=40px");
+        $(this).css("color", "red");
+    });
 });
