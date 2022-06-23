@@ -7,7 +7,7 @@ $(document).ready(function(){
         alert("Merhaba "+ isim);
     })
     $("#button2").click(function(){
-        $("#magic").fadeToggle(2000);
+        $("#magic").fadeTogglegi(2000);
     })
     $("#magic").click(function(){
         $(this).html("Cesaretliymişsin tebrik ederim. Yine beklerim :)");
