@@ -15,6 +15,8 @@ background: aquamarine;
     width: 100%;
     background-color: dimgray;
     height: 75px;
+    align-items: center;
+    display: flex;
 }
 .link{
     line-height: 40px;
@@ -31,6 +33,10 @@ background: aquamarine;
 footer{
     background-color: rgb(161, 161, 161);
     height: 300px;
+    width: 100%;
+    /*position: fixed;
+    bottom: 0px;
+    display: flex;*/
 }
 
 .linkList{
@@ -75,4 +81,7 @@ main{
 
 section{
     margin-bottom: 20px;
+}
+video{
+    max-width: 250px;
 }
