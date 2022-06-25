@@ -1,13 +1,36 @@
-//$(seçici).fonksiyon();
-//dolar option + 4
+//$("seçici").fonksiyon();
+//dolar işareti = option + 4
 $(document).ready(function(){
 
     $("#button1").click(function(){
-        var isim= "İbrahim Cem";
-        alert("Merhaba "+ isim);
-    })
+        $(".animate").animate(
+            {
+
+                width: '400px',
+                opacity: 0.5,
+
+            },"slow" );
+            $(".animate").animate(
+                {
+    
+                    height: '400px',
+                    opacity: 1,
+    
+                },"slow" );
+           $(".animate").animate(
+                {
+                height: '200px',
+                width: '200px',
+                opacity: 1,
+        
+                },"slow" );
+   
+   
+   
+   
+        })
     $("#button2").click(function(){
-        $("#magic").fadeTogglegi(2000);
+        $("#magic").fadeToggle(2000);
     })
     $("#magic").click(function(){
         $(this).html("Cesaretliymişsin tebrik ederim. Yine beklerim :)");

@@ -20,7 +20,54 @@
         </div>
     </nav>
     <main>
-        
+        <div class="form">
+            <form name="formContact" id="formContact">
+                <!--
+                    adı *
+                    soyadı *
+                    parola *
+                    doğum tarihi
+                    cinsiyet
+                    e-posta adresi *
+                    telefon *
+                    adres
+                    iletişim tercihi *
+                -->
+                <div class="formRow">
+                    <div class="formSol">Adınız</div> <div class="formSağ"><input type="text" id ="formName" name="formName" required> </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">Soyadınız</div> <div class="formSağ"><input type="text" id="formSurname" name="formSurname" required> </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">Parolanız</div> <div class="formSağ"><input type="password" id="formPas" name="formPas" required> </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">Doğum tarihiniz</div> <div class="formSağ"><input type="date" id ="formBday" name="formBday" > </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">Cinsiyetiniz</div> <div class="formSağ"><input type="radio" id ="formGenderWoman" name="formGender" value="Kadın">Kadın 
+                        <input type="radio" id ="formGenderMan" name="formGender" value="Erkek">Erkek
+                    </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">E-posta adresiniz</div> <div class="formSağ"><input type="email" id="formEmail" name="formEmail" required> </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">Telefon numaranız</div> <div class="formSağ"><input type="tel" id="formTel" name="formTel" required> </div>
+                </div>
+                <div class="formRow">
+                    <div class="formSol">İletişim tercihiniz</div> <div class="formSağ"><input type="checkbox" id="formContactOption" name="formContactEmail" required>E-posta</div>
+                    <input type="checkbox" id="formContactOption" name="formContactTel" required>Telefon
+
+                </div>   
+                <div class="formRow">
+                    <div class="formSol"></div> <div class="formSağ"><input type="submit" id="formSubmit" name="formSubmit"> 
+                        <input type="reset" id="formReset" name="formReset">
+                    </div>
+                </div>             
+            </form>
+        </div>
     </main>
     
     <footer class="footerCard"> 

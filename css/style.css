@@ -85,3 +85,11 @@ section{
 video{
     max-width: 250px;
 }
+.form{
+    width: 500px;
+    
+}
+.formRow{
+    display: flex;
+    width: auto;
+}
